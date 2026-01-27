@@ -1,0 +1,64 @@
+html part
+
+
+ <nav>
+            <div class="nav-name">Enblox</div>
+            <div class="nav-items">
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">Services</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+            </div>
+            <div class="btm"><button>Try it for free </button></div>    
+        </nav>
+
+
+ css part
+
+
+ nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    margin-top: 5px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+.nav-items a:hover{
+    color: #0066cc;
+}
+.nav-name{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.btm button{
+    padding: 12px 28px;
+    border: 2px solid #333;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+.btm button:hover{
+    background-color: #333;
+    color: white;
+}
