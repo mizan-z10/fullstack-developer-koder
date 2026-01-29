@@ -1,0 +1,1 @@
+console.log("Hello, Coder Army day 2!");
